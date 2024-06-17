@@ -573,3 +573,91 @@ src: ./slides/01342-sql-injection-countermeasures-2.md
 ---
 src: ./slides/01344-sql-injection-countermeasures-3.md
 ---
+
+---
+src: ./slides/01350-task-express-validation.md
+---
+
+---
+src: ./slides/01352-task-express-validation-details.md
+---
+
+---
+src: ./slides/01360-code-organization.md
+---
+
+---
+src: ./slides/01362-code-organization-imports.md
+---
+
+---
+src: ./slides/01364-code-organization-routes.md
+---
+
+---
+src: ./slides/01380-nestjs-intro.md
+---
+
+---
+src: ./slides/01382-nestjs-intro-2.md
+---
+
+---
+src: ./slides/01384-nestjs-intro-main-ts.md
+---
+
+---
+src: ./slides/01386-nestjs-intro-modules.md
+---
+
+---
+src: ./slides/01388-nestjs-intro-controllers.md
+---
+
+---
+src: ./slides/01389-1-nestjs-intro-controllers-params.md
+---
+
+---
+src: ./slides/01389-2-nestjs-intro-controllers-body.md
+---
+
+---
+src: ./slides/01390-nestjs-intro-services.md
+---
+
+---
+src: ./slides/01396-demo-nestjs.md
+---
+
+---
+src: ./slides/01400-nestjs-database.md
+---
+
+---
+src: ./slides/01402-nestjs-entitites.md
+---
+
+---
+src: ./slides/01404-nestjs-entitites-2.md
+---
+
+---
+src: ./slides/01406-nestjs-feature-module.md
+---
+
+---
+src: ./slides/01408-nestjs-typeorm-service.md
+---
+
+---
+src: ./slides/01420-demo-nestjs-typeorm.md
+---
+
+---
+src: ./slides/01440-task-nestjs.md
+---
+
+---
+src: ./slides/01442-task-nestjs-details.md
+---

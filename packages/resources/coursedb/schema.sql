@@ -7,12 +7,16 @@ revoke all privileges on all tables in schema dspwa1022 from student;
 grant usage on schema dspwa1022 to student;
 
 grant
-select, insert,
+select,
+insert
+,
 update on all tables in schema dspwa1022 to student;
 
 alter default privileges in schema dspwa1022
 grant
-select, insert,
+select,
+insert
+,
 update on tables to student;
 
 create extension if not exists "uuid-ossp";
@@ -203,5 +207,27 @@ values (
         '00000000-0000-0000-0000-000000000001',
         1
     );
+
+drop table if exists dspwa1022.parcel;
+
+create table dspwa1022.parcel (
+    id uuid primary key default gen_random_uuid (),
+    created_at timestamptz not null default now(),
+    "order" uuid not null references dspwa1022.order,
+    weight_kg float not null,
+    length_m float,
+    width_m float,
+    height_m float
+);
+
+drop table if exists dspwa1022.parcel_event;
+
+create table dspwa1022.parcel_event (
+    id uuid primary key default gen_random_uuid (),
+    created_at timestamptz not null default now(),
+    parcel uuid not null references dspwa1022.parcel,
+    event_type text not null,
+    event_description text
+);
 
 commit;

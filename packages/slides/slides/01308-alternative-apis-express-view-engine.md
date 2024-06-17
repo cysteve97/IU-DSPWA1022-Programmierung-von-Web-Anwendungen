@@ -12,9 +12,9 @@ layout: default
 </div>
 <div class="col-span-6">
 
-```js
-// index.js
+<Filename>index.js</Filename>
 
+```js
 import express from "express";
 import * as path from "path";
 
@@ -38,9 +38,9 @@ app.listen(3000);
 </div>
 <div class="col-span-6">
 
-```html
-<!-- views/index.ejs -->
+<Filename>views/index.ejs</Filename>
 
+```html
 <!doctype html>
 <html>
   <head>

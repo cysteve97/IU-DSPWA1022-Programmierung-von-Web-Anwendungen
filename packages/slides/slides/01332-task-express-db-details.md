@@ -8,7 +8,7 @@ layout: default
 <div class="col-span-12">
 
 - Legt im [_Root-Verzeichnis_](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main) des Projektes eine `.env`-Datei an
-- Befüllt sie mit folgenden Werten
+- Befüllt sie mit den Zugangsdaten zur Kurs-Datenbank
   - `DB_HOST=ep-dawn-dawn-a2rvlxsu.eu-central-1.aws.neon.tech`
   - `DB_DATABASE=coursedb`
   - `DB_USER=student`

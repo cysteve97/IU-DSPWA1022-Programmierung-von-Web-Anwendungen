@@ -20,8 +20,8 @@ _Variante 2: Tool-Leiste_
 
 > Verwende hier nur die `Person`-Klasse, den `PersonController` und das `PersonRepository`!
 
-- Nutze den `GET /persons`-Endpunkt, um die vorhandenen Personen abzurufen. Was ist das Ergebnis?
-- Leg einige Personen mittels `POST /persons` an
+- Nutze den `GET /people`-Endpunkt, um die vorhandenen Personen abzurufen. Was ist das Ergebnis?
+- Leg einige Personen mittels `POST /people` an
 - Schau in die Konsole/die Logs der Anwendung. Was wird dort hinter `Hibernate:` ausgegeben?
 - Was passiert, wenn du keinen `name` beim Anlegen mitgibst? Welche Informationen können wir aus den HTTP-Status-Codes ziehen?
 - Erweitere die Person-Klasse um eine beliebige neue Eigenschaft und lies/schreib diese über die API

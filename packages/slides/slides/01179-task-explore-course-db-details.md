@@ -12,8 +12,8 @@ layout: default
 - Die Zugangsdaten findet ihr unter [_My Campus_ > Lehrveranstaltung > Lehrmaterialien > _coursedb.txt_](https://mycampus.iubh.de/pluginfile.php/500496/mod_gfolder/content_77986/0/coursedb.txt?forcedownload=1)
 - Kopiert die Datei [`.env.template`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/dspwa1022/.env.template) in eurem Projekt zu `.env` und setzt dort das Passwort ein (brauchen wir später für unsere Java-Anwendung)
 - Nutzt nun ein Datenbank-Tool eurer Wahl, um euch mit der Datenbank zu verbinden, z.B.
-  - [Table-Plus](https://tableplus.com/): [Download Verbindungsdatei](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/resources/coursedb/coursedb_student.tableplusconnection) (Import-PW: Kurs-Code)
-  - IntelliJ: [Download Verbindungsdatei](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/resources/intellij.dbconnection) (DB-PW muss ergänzt werden)
+  - [Table-Plus](https://tableplus.com/): [Download Verbindungsdatei](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/resources/coursedb/coursedb_student.tableplusconnection) (Import-PW: Kurs-Code (dspwa...))
+  - IntelliJ: [Download Verbindungsdatei](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/resources/coursedb/intellij.dbconnection) (DB-PW muss ergänzt werden)
 
 </div>
 <div class="col-span-12">

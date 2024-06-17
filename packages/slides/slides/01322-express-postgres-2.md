@@ -13,9 +13,9 @@ layout: default
 </div>
 <div class="col-span-6">
 
-```ts
-// db/index.ts
+<Filename>db/index.ts</Filename>
 
+```ts
 import pg from "pg";
 const { Pool } = pg;
 
@@ -35,11 +35,11 @@ export function query(text: string, params: any[]) {
 </div>
 <div class="col-span-6">
 
-```ts
-// index.ts
+<Filename>index.ts</Filename>
 
+```ts
 import express from "express";
-import { query } from "db";
+import { query } from "./db";
 
 const app = express();
 

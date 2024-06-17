@@ -12,6 +12,8 @@ layout: default
 </div>
 <div class="col-span-6">
 
+<Filename>customer.ts</Filename>
+
 ```js
 import { isEmail } from './validation';
 
@@ -26,6 +28,8 @@ export function isCustomer(cus: any): cus is Customer {
 
 </div>
 <div class="col-span-6">
+
+<Filename>app.ts</Filename>
 
 ```js
 import { isCustomer } from "./customer";
