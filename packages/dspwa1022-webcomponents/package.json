@@ -1,0 +1,8 @@
+{
+  "name": "@iu-dspwa1022/webcomponents",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "bunx vite src"
+  },
+  "devDependencies": {}
+}

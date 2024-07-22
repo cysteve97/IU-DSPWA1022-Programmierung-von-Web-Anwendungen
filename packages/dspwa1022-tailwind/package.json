@@ -1,0 +1,13 @@
+{
+  "name": "@iu-dspwa1022/tailwind",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve:playcdn": "bunx vite src/playcdn",
+    "serve:regular": "bunx vite src/regular",
+    "watch": "bunx tailwind -i ./src/regular/input.css -o ./src/regular/output.css --watch",
+    "build": "bunx tailwind -i ./src/regular/input.css -o ./src/regular/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

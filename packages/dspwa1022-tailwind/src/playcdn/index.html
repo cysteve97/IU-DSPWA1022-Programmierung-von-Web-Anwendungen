@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            red: '#ff0000',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+
+  <hr class="my-5">
+
+  <strong>Generated CSS</strong>
+  <pre class="whitespace-pre-line text-xs">fetching generated css...</pre>
+
+  <script>
+    setTimeout(() => {
+        const style = document.querySelector('head style');
+        const pre = document.querySelector('pre');
+
+        pre.textContent = style.textContent;
+    }, 100)
+  </script>
+</body>
+</html>
