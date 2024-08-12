@@ -1015,5 +1015,133 @@ src: ./slides/02226-task-react-details.md
 ---
 
 ---
+src: ./slides/02300-angular-intro.md
+---
+
+---
+src: ./slides/02302-angular-components.md
+---
+
+---
+src: ./slides/02304-angular-inputs.md
+---
+
+---
+src: ./slides/02306-angular-dynamic-attributes.md
+---
+
+---
+src: ./slides/02308-angular-for.md
+---
+
+---
+src: ./slides/02310-angular-if.md
+---
+
+---
+src: ./slides/02312-angular-event-handling.md
+---
+
+---
+src: ./slides/02314-angular-outputs.md
+---
+
+---
+src: ./slides/02320-demo-angular.md
+---
+
+---
+src: ./slides/02321-angular-cli.md
+---
+
+---
+src: ./slides/02322-task-angular.md
+---
+
+---
+src: ./slides/02323-task-angular-details.md
+---
+
+---
+src: ./slides/02330-angular-signals.md
+---
+
+---
+src: ./slides/02332-angular-services.md
+---
+
+---
+src: ./slides/02340-angular-forms.md
+---
+
+---
+src: ./slides/02342-angular-forms-formgroup.md
+---
+
+---
+src: ./slides/02350-demo-angular-forms-signals.md
+---
+
+---
+src: ./slides/02352-task-angular-forms.md
+---
+
+---
+src: ./slides/02354-task-angular-forms-details.md
+---
+
+---
+src: ./slides/02360-angular-build.md
+---
+
+---
+src: ./slides/02362-angular-build-real-world-project.md
+---
+
+---
+src: ./slides/02364-angular-build-index-html.md
+---
+
+---
+src: ./slides/04000-misc.md
+---
+
+---
+src: ./slides/04002-misc-intro.md
+---
+
+---
+src: ./slides/04010-misc-container-queries.md
+---
+
+---
+src: ./slides/04014-misc-polypane.md
+---
+
+---
+src: ./slides/04016-misc-browserstack.md
+---
+
+---
+src: ./slides/04018-misc-can-i-use.md
+---
+
+---
+src: ./slides/04020-misc-variable-fonts.md
+---
+
+---
+src: ./slides/04022-misc-a11y.md
+---
+
+---
+src: ./slides/04024-misc-git.md
+---
+
+---
+src: ./slides/04026-misc-gource.md
+---
+
+---
 src: ./slides/99999-end.md
 ---

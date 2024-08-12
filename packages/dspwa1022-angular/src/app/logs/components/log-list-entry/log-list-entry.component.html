@@ -1,0 +1,3 @@
+@if (entry(); as entry) {
+  [{{entry.timestamp | date : 'medium'}}] {{entry.message}}
+}

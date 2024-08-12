@@ -1,0 +1,26 @@
+<form [formGroup]="form" class="grid w-72 gap-2">
+  <label>Name</label>
+  <input formControlName="name" class="border">
+
+  <label>Amount</label>
+  <input formControlName="amount" type="number" class="border">
+
+  <label>Birthday</label>
+  <input formControlName="birthday" type="date" class="border">
+
+  <hr class="my-5">
+
+  <strong>Value</strong>
+  <pre>{{form.value | json}}</pre>
+
+  @if (form.valid) {
+    ✅ Valid
+  } @else {
+    <strong>Errors</strong>
+    <pre>
+{{form.controls.name.errors| json}}
+{{form.controls.amount.errors| json}}
+{{form.controls.birthday.errors| json}}
+    </pre>
+  }
+</form>

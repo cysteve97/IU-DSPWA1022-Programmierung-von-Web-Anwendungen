@@ -1,0 +1,9 @@
+<button
+  class="h-full w-full"
+  [class.bg-slate-100]="disabled"
+  [class.hover:bg-slate-300]="!disabled"
+  (click)="operatorClicked.emit(operator)"
+  [disabled]="disabled"
+>
+  {{operator}}
+</button>

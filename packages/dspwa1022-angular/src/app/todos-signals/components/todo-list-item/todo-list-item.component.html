@@ -1,0 +1,7 @@
+<li>{{task().title}}</li>
+
+@if (!task().done) {
+  <button (click)="complete()">Complete</button>
+} @else {
+  <button disabled>Done</button>
+}

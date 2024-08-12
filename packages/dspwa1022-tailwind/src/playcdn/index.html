@@ -16,14 +16,20 @@
     }
   </script>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
+<body class="m-12">
+  <h1 class="text-3xl font-bold underline mb-6">
     Hello world!
   </h1>
 
-  <hr class="my-5">
+  <div class="grid grid-cols-12 gap-4">
+    <div class="col-span-full lg:col-span-4 bg-slate-50 p-4 min-h-24 rounded">Col 1</div>
+    <div class="col-span-full lg:col-span-4 bg-slate-50 p-4 min-h-24 rounded">Col 2</div>
+    <div class="col-span-full lg:col-span-4 bg-slate-50 p-4 min-h-24 rounded">Col 3</div>
+  </div>
 
-  <strong>Generated CSS</strong>
+  <hr class="my-12">
+
+  <strong class="underline">Generated CSS</strong>
   <pre class="whitespace-pre-line text-xs">fetching generated css...</pre>
 
   <script>

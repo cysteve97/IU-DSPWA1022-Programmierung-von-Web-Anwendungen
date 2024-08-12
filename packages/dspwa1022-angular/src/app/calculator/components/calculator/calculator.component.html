@@ -1,0 +1,48 @@
+<div class="grid grid-cols-6 border w-72 text-center">
+  <div class="col-span-full border text-right pr-2">
+    {{lines[lines.length - 1]}}
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="1" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="2" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="3" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="4" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="5" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="6" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="7" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="8" (cellClicked)="appendDigit($event)"/>
+  </div>
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="9" (cellClicked)="appendDigit($event)"/>
+  </div>
+
+  <div class="col-span-1 border">
+    <app-calculator-cell-operator [operator]="operators.ADD" (operatorClicked)="appendOperator($event)"/>
+  </div>
+  <div class="col-span-1 border">
+    <app-calculator-cell-operator [operator]="operators.SUBTRACT" (operatorClicked)="appendOperator($event)"/>
+  </div>
+
+  <div class="col-span-2 border">
+    <app-calculator-cell [value]="0" (cellClicked)="appendDigit($event)"/>
+  </div>
+
+  <div class="col-span-2 border">
+    <app-calculator-cell-operator [operator]="operators.EQUAL" (operatorClicked)="appendOperator($event)" [disabled]="lines.length < 3 || lines[lines.length - 1] === 0"/>
+  </div>
+</div>
+

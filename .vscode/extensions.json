@@ -4,6 +4,7 @@
     "antfu.unocss",
     "vscjava.vscode-gradle",
     "vscjava.vscode-java-pack",
-    "postman.postman-for-vscode"
+    "postman.postman-for-vscode",
+    "angular.ng-template"
   ]
 }

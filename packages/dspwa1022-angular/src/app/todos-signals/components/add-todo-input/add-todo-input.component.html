@@ -1,0 +1,9 @@
+<input [formControl]="titleControl" placeholder="Enter new task ...">
+
+@if (titleControl.invalid && titleControl.dirty) {
+  <p style="margin: 0; color: red;">
+    Task title is too short!
+  </p>
+}
+
+<button [disabled]="titleControl.invalid" (click)="addTask()">Add Task</button>

@@ -1,0 +1,24 @@
+<ul>
+@for (task of tasks(); track task.title) {
+  <app-todo-list-item
+    [task]="task"
+    (taskChange)="announceTaskCompletion(task)"
+  />
+}
+</ul>
+
+<app-add-todo-input (taskCreated)="addTask($event)"/>
+
+<footer style="margin-top: 1rem;">
+  {{completedTaskCount()}}
+  of
+  {{tasks().length}}
+  tasks completed
+
+  <button
+    (click)="resetAllTasks()"
+    [disabled]="completedTaskCount() === 0"
+  >
+    Reset
+  </button>
+</footer>
